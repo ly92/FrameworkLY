@@ -17,9 +17,6 @@
 		08D11F841EC9484500D8987A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7B1EC9484500D8987A /* Assets.xcassets */; };
 		08D11F851EC9484500D8987A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7B1EC9484500D8987A /* Assets.xcassets */; };
 		08D11F861EC9484500D8987A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7B1EC9484500D8987A /* Assets.xcassets */; };
-		08D11F871EC9484500D8987A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7C1EC9484500D8987A /* Info.plist */; };
-		08D11F881EC9484500D8987A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7C1EC9484500D8987A /* Info.plist */; };
-		08D11F891EC9484500D8987A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7C1EC9484500D8987A /* Info.plist */; };
 		08D11F8A1EC9484500D8987A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7D1EC9484500D8987A /* LaunchScreen.storyboard */; };
 		08D11F8B1EC9484500D8987A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7D1EC9484500D8987A /* LaunchScreen.storyboard */; };
 		08D11F8C1EC9484500D8987A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7D1EC9484500D8987A /* LaunchScreen.storyboard */; };
@@ -50,6 +47,8 @@
 		08D11FB51EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */; };
 		08D11FB61EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */; };
 		08D11FB71EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */; };
+		08D11FBC1EC9ED2200D8987A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08D11FBB1EC9ED2200D8987A /* Info.plist */; };
+		08D11FC11ECA013D00D8987A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FC01ECA013D00D8987A /* Reachability.m */; };
 		3D0E236481EDC48D70D9733D /* libPods-FrameworkLYTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D34611FBB3AF4D3C668356 /* libPods-FrameworkLYTests.a */; };
 		CA05F42D791BC056DB00A00A /* libPods-FrameworkLY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C723A15E0E66E4F3448E4C1C /* libPods-FrameworkLY.a */; };
 		E2E87DFF3E26F221A1AA9366 /* libPods-FrameworkLYUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C56E0AE6EB53C9F130D3B /* libPods-FrameworkLYUITests.a */; };
@@ -86,7 +85,6 @@
 		08D11F791EC9484500D8987A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08D11F7A1EC9484500D8987A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		08D11F7B1EC9484500D8987A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		08D11F7C1EC9484500D8987A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08D11F7D1EC9484500D8987A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08D11F7E1EC9484500D8987A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		08D11F901EC9489800D8987A /* LYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTabBar.h; sourceTree = "<group>"; };
@@ -107,6 +105,9 @@
 		08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BottomHairline.m"; sourceTree = "<group>"; };
 		08D11FB91EC94ACB00D8987A /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		08D11FBA1EC94AF900D8987A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		08D11FBB1EC9ED2200D8987A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D11FBF1ECA013D00D8987A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		08D11FC01ECA013D00D8987A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		0F40357F10D4E7B657291EBF /* Pods-FrameworkLYTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameworkLYTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrameworkLYTests/Pods-FrameworkLYTests.debug.xcconfig"; sourceTree = "<group>"; };
 		24EDE7D2F1044DC24EA3A390 /* Pods-FrameworkLYUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameworkLYUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrameworkLYUITests/Pods-FrameworkLYUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		38D34611FBB3AF4D3C668356 /* libPods-FrameworkLYTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FrameworkLYTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +172,7 @@
 		08D11F441EC9421A00D8987A /* FrameworkLY */ = {
 			isa = PBXGroup;
 			children = (
+				08D11FBD1ECA013D00D8987A /* helpers */,
 				08D11FB81EC94A8E00D8987A /* Config */,
 				08D11F781EC9484500D8987A /* app */,
 				08D11F4B1EC9421A00D8987A /* ViewController.h */,
@@ -209,10 +211,10 @@
 		08D11F781EC9484500D8987A /* app */ = {
 			isa = PBXGroup;
 			children = (
+				08D11FBB1EC9ED2200D8987A /* Info.plist */,
 				08D11F791EC9484500D8987A /* AppDelegate.h */,
 				08D11F7A1EC9484500D8987A /* AppDelegate.m */,
 				08D11F7B1EC9484500D8987A /* Assets.xcassets */,
-				08D11F7C1EC9484500D8987A /* Info.plist */,
 				08D11F7D1EC9484500D8987A /* LaunchScreen.storyboard */,
 				08D11F7E1EC9484500D8987A /* Main.storyboard */,
 				08D11F7F1EC9484500D8987A /* nav */,
@@ -258,6 +260,23 @@
 				08D11FB91EC94ACB00D8987A /* Macros.h */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		08D11FBD1ECA013D00D8987A /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				08D11FBE1ECA013D00D8987A /* Reachability */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		08D11FBE1ECA013D00D8987A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				08D11FBF1ECA013D00D8987A /* Reachability.h */,
+				08D11FC01ECA013D00D8987A /* Reachability.m */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 		BE7D79E91A1FA891BD8E9F9E /* Pods */ = {
@@ -401,8 +420,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D11FBC1EC9ED2200D8987A /* Info.plist in Resources */,
 				08D11F8A1EC9484500D8987A /* LaunchScreen.storyboard in Resources */,
-				08D11F871EC9484500D8987A /* Info.plist in Resources */,
 				08D11F841EC9484500D8987A /* Assets.xcassets in Resources */,
 				08D11F8D1EC9484500D8987A /* Main.storyboard in Resources */,
 			);
@@ -413,7 +432,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				08D11F8B1EC9484500D8987A /* LaunchScreen.storyboard in Resources */,
-				08D11F881EC9484500D8987A /* Info.plist in Resources */,
 				08D11F851EC9484500D8987A /* Assets.xcassets in Resources */,
 				08D11F8E1EC9484500D8987A /* Main.storyboard in Resources */,
 			);
@@ -424,7 +442,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				08D11F8C1EC9484500D8987A /* LaunchScreen.storyboard in Resources */,
-				08D11F891EC9484500D8987A /* Info.plist in Resources */,
 				08D11F861EC9484500D8987A /* Assets.xcassets in Resources */,
 				08D11F8F1EC9484500D8987A /* Main.storyboard in Resources */,
 			);
@@ -585,6 +602,7 @@
 				08D11FAB1EC949E900D8987A /* LYNavigationController.m in Sources */,
 				08D11FB51EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */,
 				08D11FA11EC949AE00D8987A /* AppTheme.m in Sources */,
+				08D11FC11ECA013D00D8987A /* Reachability.m in Sources */,
 				08D11F9C1EC948F500D8987A /* LYTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

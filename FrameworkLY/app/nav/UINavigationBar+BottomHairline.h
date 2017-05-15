@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UINavigationBar (BottomHairline)
+- (void)hideBottomHairline;
+- (void)showBottomHairline;
 
 @end
