@@ -8,13 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		08D11F471EC9421A00D8987A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F461EC9421A00D8987A /* main.m */; };
-		08D11F4A1EC9421A00D8987A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F491EC9421A00D8987A /* AppDelegate.m */; };
 		08D11F4D1EC9421A00D8987A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F4C1EC9421A00D8987A /* ViewController.m */; };
-		08D11F501EC9421A00D8987A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F4E1EC9421A00D8987A /* Main.storyboard */; };
-		08D11F521EC9421A00D8987A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F511EC9421A00D8987A /* Assets.xcassets */; };
-		08D11F551EC9421A00D8987A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F531EC9421A00D8987A /* LaunchScreen.storyboard */; };
 		08D11F601EC9421A00D8987A /* FrameworkLYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F5F1EC9421A00D8987A /* FrameworkLYTests.m */; };
 		08D11F6B1EC9421A00D8987A /* FrameworkLYUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F6A1EC9421A00D8987A /* FrameworkLYUITests.m */; };
+		08D11F811EC9484500D8987A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F7A1EC9484500D8987A /* AppDelegate.m */; };
+		08D11F821EC9484500D8987A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F7A1EC9484500D8987A /* AppDelegate.m */; };
+		08D11F831EC9484500D8987A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F7A1EC9484500D8987A /* AppDelegate.m */; };
+		08D11F841EC9484500D8987A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7B1EC9484500D8987A /* Assets.xcassets */; };
+		08D11F851EC9484500D8987A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7B1EC9484500D8987A /* Assets.xcassets */; };
+		08D11F861EC9484500D8987A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7B1EC9484500D8987A /* Assets.xcassets */; };
+		08D11F871EC9484500D8987A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7C1EC9484500D8987A /* Info.plist */; };
+		08D11F881EC9484500D8987A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7C1EC9484500D8987A /* Info.plist */; };
+		08D11F891EC9484500D8987A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7C1EC9484500D8987A /* Info.plist */; };
+		08D11F8A1EC9484500D8987A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7D1EC9484500D8987A /* LaunchScreen.storyboard */; };
+		08D11F8B1EC9484500D8987A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7D1EC9484500D8987A /* LaunchScreen.storyboard */; };
+		08D11F8C1EC9484500D8987A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7D1EC9484500D8987A /* LaunchScreen.storyboard */; };
+		08D11F8D1EC9484500D8987A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7E1EC9484500D8987A /* Main.storyboard */; };
+		08D11F8E1EC9484500D8987A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7E1EC9484500D8987A /* Main.storyboard */; };
+		08D11F8F1EC9484500D8987A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D11F7E1EC9484500D8987A /* Main.storyboard */; };
+		08D11F921EC9489800D8987A /* LYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F911EC9489800D8987A /* LYTabBar.m */; };
+		08D11F931EC9489800D8987A /* LYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F911EC9489800D8987A /* LYTabBar.m */; };
+		08D11F941EC9489800D8987A /* LYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F911EC9489800D8987A /* LYTabBar.m */; };
+		08D11F971EC948CA00D8987A /* LYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F961EC948CA00D8987A /* LYTabBarController.m */; };
+		08D11F981EC948CA00D8987A /* LYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F961EC948CA00D8987A /* LYTabBarController.m */; };
+		08D11F991EC948CA00D8987A /* LYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F961EC948CA00D8987A /* LYTabBarController.m */; };
+		08D11F9C1EC948F500D8987A /* LYTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F9B1EC948F500D8987A /* LYTabBarItem.m */; };
+		08D11F9D1EC948F500D8987A /* LYTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F9B1EC948F500D8987A /* LYTabBarItem.m */; };
+		08D11F9E1EC948F500D8987A /* LYTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F9B1EC948F500D8987A /* LYTabBarItem.m */; };
+		08D11FA11EC949AE00D8987A /* AppTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FA01EC949AE00D8987A /* AppTheme.m */; };
+		08D11FA21EC949AE00D8987A /* AppTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FA01EC949AE00D8987A /* AppTheme.m */; };
+		08D11FA31EC949AE00D8987A /* AppTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FA01EC949AE00D8987A /* AppTheme.m */; };
+		08D11FA61EC949CC00D8987A /* LYBlackTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FA51EC949CC00D8987A /* LYBlackTransition.m */; };
+		08D11FA71EC949CC00D8987A /* LYBlackTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FA51EC949CC00D8987A /* LYBlackTransition.m */; };
+		08D11FA81EC949CC00D8987A /* LYBlackTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FA51EC949CC00D8987A /* LYBlackTransition.m */; };
+		08D11FAB1EC949E900D8987A /* LYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FAA1EC949E900D8987A /* LYNavigationController.m */; };
+		08D11FAC1EC949E900D8987A /* LYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FAA1EC949E900D8987A /* LYNavigationController.m */; };
+		08D11FAD1EC949E900D8987A /* LYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FAA1EC949E900D8987A /* LYNavigationController.m */; };
+		08D11FB01EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FAF1EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.m */; };
+		08D11FB11EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FAF1EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.m */; };
+		08D11FB21EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FAF1EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.m */; };
+		08D11FB51EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */; };
+		08D11FB61EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */; };
+		08D11FB71EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */; };
+		3D0E236481EDC48D70D9733D /* libPods-FrameworkLYTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D34611FBB3AF4D3C668356 /* libPods-FrameworkLYTests.a */; };
+		CA05F42D791BC056DB00A00A /* libPods-FrameworkLY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C723A15E0E66E4F3448E4C1C /* libPods-FrameworkLY.a */; };
+		E2E87DFF3E26F221A1AA9366 /* libPods-FrameworkLYUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8C56E0AE6EB53C9F130D3B /* libPods-FrameworkLYUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +75,47 @@
 /* Begin PBXFileReference section */
 		08D11F421EC9421A00D8987A /* FrameworkLY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameworkLY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D11F461EC9421A00D8987A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		08D11F481EC9421A00D8987A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		08D11F491EC9421A00D8987A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		08D11F4B1EC9421A00D8987A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		08D11F4C1EC9421A00D8987A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		08D11F4F1EC9421A00D8987A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		08D11F511EC9421A00D8987A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		08D11F541EC9421A00D8987A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		08D11F561EC9421A00D8987A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08D11F5B1EC9421A00D8987A /* FrameworkLYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkLYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D11F5F1EC9421A00D8987A /* FrameworkLYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameworkLYTests.m; sourceTree = "<group>"; };
 		08D11F611EC9421A00D8987A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08D11F661EC9421A00D8987A /* FrameworkLYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkLYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D11F6A1EC9421A00D8987A /* FrameworkLYUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameworkLYUITests.m; sourceTree = "<group>"; };
 		08D11F6C1EC9421A00D8987A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D11F791EC9484500D8987A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08D11F7A1EC9484500D8987A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08D11F7B1EC9484500D8987A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08D11F7C1EC9484500D8987A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D11F7D1EC9484500D8987A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08D11F7E1EC9484500D8987A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		08D11F901EC9489800D8987A /* LYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTabBar.h; sourceTree = "<group>"; };
+		08D11F911EC9489800D8987A /* LYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTabBar.m; sourceTree = "<group>"; };
+		08D11F951EC948CA00D8987A /* LYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTabBarController.h; sourceTree = "<group>"; };
+		08D11F961EC948CA00D8987A /* LYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTabBarController.m; sourceTree = "<group>"; };
+		08D11F9A1EC948F500D8987A /* LYTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTabBarItem.h; sourceTree = "<group>"; };
+		08D11F9B1EC948F500D8987A /* LYTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTabBarItem.m; sourceTree = "<group>"; };
+		08D11F9F1EC949AE00D8987A /* AppTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTheme.h; sourceTree = "<group>"; };
+		08D11FA01EC949AE00D8987A /* AppTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTheme.m; sourceTree = "<group>"; };
+		08D11FA41EC949CC00D8987A /* LYBlackTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBlackTransition.h; sourceTree = "<group>"; };
+		08D11FA51EC949CC00D8987A /* LYBlackTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBlackTransition.m; sourceTree = "<group>"; };
+		08D11FA91EC949E900D8987A /* LYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNavigationController.h; sourceTree = "<group>"; };
+		08D11FAA1EC949E900D8987A /* LYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNavigationController.m; sourceTree = "<group>"; };
+		08D11FAE1EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
+		08D11FAF1EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BlocksKit.m"; sourceTree = "<group>"; };
+		08D11FB31EC94A4200D8987A /* UINavigationBar+BottomHairline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BottomHairline.h"; sourceTree = "<group>"; };
+		08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BottomHairline.m"; sourceTree = "<group>"; };
+		08D11FB91EC94ACB00D8987A /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		08D11FBA1EC94AF900D8987A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0F40357F10D4E7B657291EBF /* Pods-FrameworkLYTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameworkLYTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrameworkLYTests/Pods-FrameworkLYTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24EDE7D2F1044DC24EA3A390 /* Pods-FrameworkLYUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameworkLYUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrameworkLYUITests/Pods-FrameworkLYUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		38D34611FBB3AF4D3C668356 /* libPods-FrameworkLYTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FrameworkLYTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5126C9837EB8C47B475A97A9 /* Pods-FrameworkLYTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameworkLYTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FrameworkLYTests/Pods-FrameworkLYTests.release.xcconfig"; sourceTree = "<group>"; };
+		55A3FDF6BF7FBC0D893BCF6F /* Pods-FrameworkLY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameworkLY.release.xcconfig"; path = "Pods/Target Support Files/Pods-FrameworkLY/Pods-FrameworkLY.release.xcconfig"; sourceTree = "<group>"; };
+		91220255D09DB6AF95A49564 /* Pods-FrameworkLY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameworkLY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrameworkLY/Pods-FrameworkLY.debug.xcconfig"; sourceTree = "<group>"; };
+		9C8C56E0AE6EB53C9F130D3B /* libPods-FrameworkLYUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FrameworkLYUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C723A15E0E66E4F3448E4C1C /* libPods-FrameworkLY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FrameworkLY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DEC4B034AE5C06C14D308F /* Pods-FrameworkLYUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameworkLYUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FrameworkLYUITests/Pods-FrameworkLYUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA05F42D791BC056DB00A00A /* libPods-FrameworkLY.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0E236481EDC48D70D9733D /* libPods-FrameworkLYTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E87DFF3E26F221A1AA9366 /* libPods-FrameworkLYUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +153,8 @@
 				08D11F5E1EC9421A00D8987A /* FrameworkLYTests */,
 				08D11F691EC9421A00D8987A /* FrameworkLYUITests */,
 				08D11F431EC9421A00D8987A /* Products */,
+				BE7D79E91A1FA891BD8E9F9E /* Pods */,
+				E94D6F9C324724955AA48DC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +171,10 @@
 		08D11F441EC9421A00D8987A /* FrameworkLY */ = {
 			isa = PBXGroup;
 			children = (
-				08D11F481EC9421A00D8987A /* AppDelegate.h */,
-				08D11F491EC9421A00D8987A /* AppDelegate.m */,
+				08D11FB81EC94A8E00D8987A /* Config */,
+				08D11F781EC9484500D8987A /* app */,
 				08D11F4B1EC9421A00D8987A /* ViewController.h */,
 				08D11F4C1EC9421A00D8987A /* ViewController.m */,
-				08D11F4E1EC9421A00D8987A /* Main.storyboard */,
-				08D11F511EC9421A00D8987A /* Assets.xcassets */,
-				08D11F531EC9421A00D8987A /* LaunchScreen.storyboard */,
-				08D11F561EC9421A00D8987A /* Info.plist */,
 				08D11F451EC9421A00D8987A /* Supporting Files */,
 			);
 			path = FrameworkLY;
@@ -140,6 +206,83 @@
 			path = FrameworkLYUITests;
 			sourceTree = "<group>";
 		};
+		08D11F781EC9484500D8987A /* app */ = {
+			isa = PBXGroup;
+			children = (
+				08D11F791EC9484500D8987A /* AppDelegate.h */,
+				08D11F7A1EC9484500D8987A /* AppDelegate.m */,
+				08D11F7B1EC9484500D8987A /* Assets.xcassets */,
+				08D11F7C1EC9484500D8987A /* Info.plist */,
+				08D11F7D1EC9484500D8987A /* LaunchScreen.storyboard */,
+				08D11F7E1EC9484500D8987A /* Main.storyboard */,
+				08D11F7F1EC9484500D8987A /* nav */,
+				08D11F801EC9484500D8987A /* tabbar */,
+				08D11FBA1EC94AF900D8987A /* PrefixHeader.pch */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		08D11F7F1EC9484500D8987A /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				08D11F9F1EC949AE00D8987A /* AppTheme.h */,
+				08D11FA01EC949AE00D8987A /* AppTheme.m */,
+				08D11FA41EC949CC00D8987A /* LYBlackTransition.h */,
+				08D11FA51EC949CC00D8987A /* LYBlackTransition.m */,
+				08D11FA91EC949E900D8987A /* LYNavigationController.h */,
+				08D11FAA1EC949E900D8987A /* LYNavigationController.m */,
+				08D11FAE1EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.h */,
+				08D11FAF1EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.m */,
+				08D11FB31EC94A4200D8987A /* UINavigationBar+BottomHairline.h */,
+				08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */,
+			);
+			path = nav;
+			sourceTree = "<group>";
+		};
+		08D11F801EC9484500D8987A /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				08D11F901EC9489800D8987A /* LYTabBar.h */,
+				08D11F911EC9489800D8987A /* LYTabBar.m */,
+				08D11F951EC948CA00D8987A /* LYTabBarController.h */,
+				08D11F961EC948CA00D8987A /* LYTabBarController.m */,
+				08D11F9A1EC948F500D8987A /* LYTabBarItem.h */,
+				08D11F9B1EC948F500D8987A /* LYTabBarItem.m */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		08D11FB81EC94A8E00D8987A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				08D11FB91EC94ACB00D8987A /* Macros.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		BE7D79E91A1FA891BD8E9F9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91220255D09DB6AF95A49564 /* Pods-FrameworkLY.debug.xcconfig */,
+				55A3FDF6BF7FBC0D893BCF6F /* Pods-FrameworkLY.release.xcconfig */,
+				0F40357F10D4E7B657291EBF /* Pods-FrameworkLYTests.debug.xcconfig */,
+				5126C9837EB8C47B475A97A9 /* Pods-FrameworkLYTests.release.xcconfig */,
+				24EDE7D2F1044DC24EA3A390 /* Pods-FrameworkLYUITests.debug.xcconfig */,
+				D7DEC4B034AE5C06C14D308F /* Pods-FrameworkLYUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E94D6F9C324724955AA48DC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C723A15E0E66E4F3448E4C1C /* libPods-FrameworkLY.a */,
+				38D34611FBB3AF4D3C668356 /* libPods-FrameworkLYTests.a */,
+				9C8C56E0AE6EB53C9F130D3B /* libPods-FrameworkLYUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08D11F6F1EC9421A00D8987A /* Build configuration list for PBXNativeTarget "FrameworkLY" */;
 			buildPhases = (
+				7FE002F1C3BC9EDE0C1C5982 /* [CP] Check Pods Manifest.lock */,
 				08D11F3E1EC9421A00D8987A /* Sources */,
 				08D11F3F1EC9421A00D8987A /* Frameworks */,
 				08D11F401EC9421A00D8987A /* Resources */,
+				EAA354241C2F1E599D365905 /* [CP] Embed Pods Frameworks */,
+				FA09A1B81BD2902421FA4763 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08D11F721EC9421A00D8987A /* Build configuration list for PBXNativeTarget "FrameworkLYTests" */;
 			buildPhases = (
+				DCEA4F3381E57C59B9532EA3 /* [CP] Check Pods Manifest.lock */,
 				08D11F571EC9421A00D8987A /* Sources */,
 				08D11F581EC9421A00D8987A /* Frameworks */,
 				08D11F591EC9421A00D8987A /* Resources */,
+				9B3908EFCF1302754A55D581 /* [CP] Embed Pods Frameworks */,
+				5CBF9B7EFF96532AB400DF9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +331,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08D11F751EC9421A00D8987A /* Build configuration list for PBXNativeTarget "FrameworkLYUITests" */;
 			buildPhases = (
+				FC06159F3D22A69CB097256E /* [CP] Check Pods Manifest.lock */,
 				08D11F621EC9421A00D8987A /* Sources */,
 				08D11F631EC9421A00D8987A /* Frameworks */,
 				08D11F641EC9421A00D8987A /* Resources */,
+				A6604A8BAB5ECFACEC246CF0 /* [CP] Embed Pods Frameworks */,
+				9E0D377A98949009B98A7E8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +401,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08D11F551EC9421A00D8987A /* LaunchScreen.storyboard in Resources */,
-				08D11F521EC9421A00D8987A /* Assets.xcassets in Resources */,
-				08D11F501EC9421A00D8987A /* Main.storyboard in Resources */,
+				08D11F8A1EC9484500D8987A /* LaunchScreen.storyboard in Resources */,
+				08D11F871EC9484500D8987A /* Info.plist in Resources */,
+				08D11F841EC9484500D8987A /* Assets.xcassets in Resources */,
+				08D11F8D1EC9484500D8987A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +412,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D11F8B1EC9484500D8987A /* LaunchScreen.storyboard in Resources */,
+				08D11F881EC9484500D8987A /* Info.plist in Resources */,
+				08D11F851EC9484500D8987A /* Assets.xcassets in Resources */,
+				08D11F8E1EC9484500D8987A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,19 +423,169 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D11F8C1EC9484500D8987A /* LaunchScreen.storyboard in Resources */,
+				08D11F891EC9484500D8987A /* Info.plist in Resources */,
+				08D11F861EC9484500D8987A /* Assets.xcassets in Resources */,
+				08D11F8F1EC9484500D8987A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CBF9B7EFF96532AB400DF9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrameworkLYTests/Pods-FrameworkLYTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE002F1C3BC9EDE0C1C5982 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3908EFCF1302754A55D581 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrameworkLYTests/Pods-FrameworkLYTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E0D377A98949009B98A7E8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrameworkLYUITests/Pods-FrameworkLYUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6604A8BAB5ECFACEC246CF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrameworkLYUITests/Pods-FrameworkLYUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCEA4F3381E57C59B9532EA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA354241C2F1E599D365905 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrameworkLY/Pods-FrameworkLY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA09A1B81BD2902421FA4763 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrameworkLY/Pods-FrameworkLY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC06159F3D22A69CB097256E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08D11F3E1EC9421A00D8987A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D11F971EC948CA00D8987A /* LYTabBarController.m in Sources */,
 				08D11F4D1EC9421A00D8987A /* ViewController.m in Sources */,
-				08D11F4A1EC9421A00D8987A /* AppDelegate.m in Sources */,
 				08D11F471EC9421A00D8987A /* main.m in Sources */,
+				08D11FA61EC949CC00D8987A /* LYBlackTransition.m in Sources */,
+				08D11F921EC9489800D8987A /* LYTabBar.m in Sources */,
+				08D11FB01EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.m in Sources */,
+				08D11F811EC9484500D8987A /* AppDelegate.m in Sources */,
+				08D11FAB1EC949E900D8987A /* LYNavigationController.m in Sources */,
+				08D11FB51EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */,
+				08D11FA11EC949AE00D8987A /* AppTheme.m in Sources */,
+				08D11F9C1EC948F500D8987A /* LYTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +593,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D11F981EC948CA00D8987A /* LYTabBarController.m in Sources */,
+				08D11F821EC9484500D8987A /* AppDelegate.m in Sources */,
+				08D11FB11EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.m in Sources */,
+				08D11F9D1EC948F500D8987A /* LYTabBarItem.m in Sources */,
+				08D11FA71EC949CC00D8987A /* LYBlackTransition.m in Sources */,
+				08D11FAC1EC949E900D8987A /* LYNavigationController.m in Sources */,
+				08D11FB61EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */,
 				08D11F601EC9421A00D8987A /* FrameworkLYTests.m in Sources */,
+				08D11F931EC9489800D8987A /* LYTabBar.m in Sources */,
+				08D11FA21EC949AE00D8987A /* AppTheme.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +610,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D11F991EC948CA00D8987A /* LYTabBarController.m in Sources */,
+				08D11F831EC9484500D8987A /* AppDelegate.m in Sources */,
+				08D11FB21EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.m in Sources */,
+				08D11F9E1EC948F500D8987A /* LYTabBarItem.m in Sources */,
+				08D11FA81EC949CC00D8987A /* LYBlackTransition.m in Sources */,
+				08D11FAD1EC949E900D8987A /* LYNavigationController.m in Sources */,
+				08D11FB71EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */,
 				08D11F6B1EC9421A00D8987A /* FrameworkLYUITests.m in Sources */,
+				08D11F941EC9489800D8987A /* LYTabBar.m in Sources */,
+				08D11FA31EC949AE00D8987A /* AppTheme.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,25 +637,6 @@
 			targetProxy = 08D11F671EC9421A00D8987A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		08D11F4E1EC9421A00D8987A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08D11F4F1EC9421A00D8987A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		08D11F531EC9421A00D8987A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08D11F541EC9421A00D8987A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		08D11F6D1EC9421A00D8987A /* Debug */ = {
@@ -425,10 +731,13 @@
 		};
 		08D11F701EC9421A00D8987A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91220255D09DB6AF95A49564 /* Pods-FrameworkLY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZW9XLD4957;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FrameworkLY/app/PrefixHeader.pch";
 				INFOPLIST_FILE = FrameworkLY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ly.FrameworkLY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +746,13 @@
 		};
 		08D11F711EC9421A00D8987A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A3FDF6BF7FBC0D893BCF6F /* Pods-FrameworkLY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZW9XLD4957;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FrameworkLY/app/PrefixHeader.pch";
 				INFOPLIST_FILE = FrameworkLY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ly.FrameworkLY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,6 +761,7 @@
 		};
 		08D11F731EC9421A00D8987A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F40357F10D4E7B657291EBF /* Pods-FrameworkLYTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ZW9XLD4957;
@@ -462,6 +775,7 @@
 		};
 		08D11F741EC9421A00D8987A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5126C9837EB8C47B475A97A9 /* Pods-FrameworkLYTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ZW9XLD4957;
@@ -475,6 +789,7 @@
 		};
 		08D11F761EC9421A00D8987A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EDE7D2F1044DC24EA3A390 /* Pods-FrameworkLYUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZW9XLD4957;
 				INFOPLIST_FILE = FrameworkLYUITests/Info.plist;
@@ -487,6 +802,7 @@
 		};
 		08D11F771EC9421A00D8987A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DEC4B034AE5C06C14D308F /* Pods-FrameworkLYUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZW9XLD4957;
 				INFOPLIST_FILE = FrameworkLYUITests/Info.plist;
@@ -516,6 +832,7 @@
 				08D11F711EC9421A00D8987A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08D11F721EC9421A00D8987A /* Build configuration list for PBXNativeTarget "FrameworkLYTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +841,7 @@
 				08D11F741EC9421A00D8987A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08D11F751EC9421A00D8987A /* Build configuration list for PBXNativeTarget "FrameworkLYUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +850,7 @@
 				08D11F771EC9421A00D8987A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
