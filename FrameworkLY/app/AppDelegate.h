@@ -19,9 +19,10 @@
 @class LYTabBarController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+@singleton(AppDelegate);
++ (AppDelegate*) sharedAppDelegate;
 
 @property (strong, nonatomic) UIWindow *window;
-@property(strong,nonatomic) LYTabBarController *tabController;
-
+@property(strong, nonatomic) LYTabBarController *tabController;
 @end
 

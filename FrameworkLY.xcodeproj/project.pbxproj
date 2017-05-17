@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081855F41ECBE2AC008E76F1 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0879B90D1ECB411400A8B7BE /* CaptureViewController.m */; };
+		081855F51ECBE2AC008E76F1 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0879B90D1ECB411400A8B7BE /* CaptureViewController.m */; };
+		081856771ECBEDFE008E76F1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 081856761ECBEDFE008E76F1 /* Info.plist */; };
+		0879B90F1ECB411400A8B7BE /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0879B90D1ECB411400A8B7BE /* CaptureViewController.m */; };
+		0879B9101ECB411400A8B7BE /* CaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0879B90E1ECB411400A8B7BE /* CaptureViewController.xib */; };
 		08D11F471EC9421A00D8987A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F461EC9421A00D8987A /* main.m */; };
 		08D11F4D1EC9421A00D8987A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F4C1EC9421A00D8987A /* ViewController.m */; };
 		08D11F601EC9421A00D8987A /* FrameworkLYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11F5F1EC9421A00D8987A /* FrameworkLYTests.m */; };
@@ -47,7 +52,6 @@
 		08D11FB51EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */; };
 		08D11FB61EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */; };
 		08D11FB71EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */; };
-		08D11FBC1EC9ED2200D8987A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08D11FBB1EC9ED2200D8987A /* Info.plist */; };
 		08D11FC11ECA013D00D8987A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D11FC01ECA013D00D8987A /* Reachability.m */; };
 		3D0E236481EDC48D70D9733D /* libPods-FrameworkLYTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D34611FBB3AF4D3C668356 /* libPods-FrameworkLYTests.a */; };
 		CA05F42D791BC056DB00A00A /* libPods-FrameworkLY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C723A15E0E66E4F3448E4C1C /* libPods-FrameworkLY.a */; };
@@ -72,6 +76,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		081856761ECBEDFE008E76F1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FrameworkLY/Info.plist; sourceTree = SOURCE_ROOT; };
+		0879B90C1ECB411400A8B7BE /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
+		0879B90D1ECB411400A8B7BE /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
+		0879B90E1ECB411400A8B7BE /* CaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaptureViewController.xib; sourceTree = "<group>"; };
 		08D11F421EC9421A00D8987A /* FrameworkLY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameworkLY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D11F461EC9421A00D8987A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08D11F4B1EC9421A00D8987A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -105,7 +113,6 @@
 		08D11FB41EC94A4200D8987A /* UINavigationBar+BottomHairline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BottomHairline.m"; sourceTree = "<group>"; };
 		08D11FB91EC94ACB00D8987A /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		08D11FBA1EC94AF900D8987A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		08D11FBB1EC9ED2200D8987A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08D11FBF1ECA013D00D8987A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		08D11FC01ECA013D00D8987A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		0F40357F10D4E7B657291EBF /* Pods-FrameworkLYTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrameworkLYTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrameworkLYTests/Pods-FrameworkLYTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +154,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0879B90A1ECB406A00A8B7BE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0879B90B1ECB40AD00A8B7BE /* Capture */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0879B90B1ECB40AD00A8B7BE /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				0879B90C1ECB411400A8B7BE /* CaptureViewController.h */,
+				0879B90D1ECB411400A8B7BE /* CaptureViewController.m */,
+				0879B90E1ECB411400A8B7BE /* CaptureViewController.xib */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
 		08D11F391EC9421A00D8987A = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +200,7 @@
 				08D11FBD1ECA013D00D8987A /* helpers */,
 				08D11FB81EC94A8E00D8987A /* Config */,
 				08D11F781EC9484500D8987A /* app */,
+				0879B90A1ECB406A00A8B7BE /* UI */,
 				08D11F4B1EC9421A00D8987A /* ViewController.h */,
 				08D11F4C1EC9421A00D8987A /* ViewController.m */,
 				08D11F451EC9421A00D8987A /* Supporting Files */,
@@ -211,7 +237,7 @@
 		08D11F781EC9484500D8987A /* app */ = {
 			isa = PBXGroup;
 			children = (
-				08D11FBB1EC9ED2200D8987A /* Info.plist */,
+				081856761ECBEDFE008E76F1 /* Info.plist */,
 				08D11F791EC9484500D8987A /* AppDelegate.h */,
 				08D11F7A1EC9484500D8987A /* AppDelegate.m */,
 				08D11F7B1EC9484500D8987A /* Assets.xcassets */,
@@ -420,9 +446,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08D11FBC1EC9ED2200D8987A /* Info.plist in Resources */,
+				0879B9101ECB411400A8B7BE /* CaptureViewController.xib in Resources */,
 				08D11F8A1EC9484500D8987A /* LaunchScreen.storyboard in Resources */,
 				08D11F841EC9484500D8987A /* Assets.xcassets in Resources */,
+				081856771ECBEDFE008E76F1 /* Info.plist in Resources */,
 				08D11F8D1EC9484500D8987A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,6 +627,7 @@
 				08D11FB01EC94A2A00D8987A /* UIBarButtonItem+BlocksKit.m in Sources */,
 				08D11F811EC9484500D8987A /* AppDelegate.m in Sources */,
 				08D11FAB1EC949E900D8987A /* LYNavigationController.m in Sources */,
+				0879B90F1ECB411400A8B7BE /* CaptureViewController.m in Sources */,
 				08D11FB51EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */,
 				08D11FA11EC949AE00D8987A /* AppTheme.m in Sources */,
 				08D11FC11ECA013D00D8987A /* Reachability.m in Sources */,
@@ -618,6 +646,7 @@
 				08D11FA71EC949CC00D8987A /* LYBlackTransition.m in Sources */,
 				08D11FAC1EC949E900D8987A /* LYNavigationController.m in Sources */,
 				08D11FB61EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */,
+				081855F41ECBE2AC008E76F1 /* CaptureViewController.m in Sources */,
 				08D11F601EC9421A00D8987A /* FrameworkLYTests.m in Sources */,
 				08D11F931EC9489800D8987A /* LYTabBar.m in Sources */,
 				08D11FA21EC949AE00D8987A /* AppTheme.m in Sources */,
@@ -635,6 +664,7 @@
 				08D11FA81EC949CC00D8987A /* LYBlackTransition.m in Sources */,
 				08D11FAD1EC949E900D8987A /* LYNavigationController.m in Sources */,
 				08D11FB71EC94A4200D8987A /* UINavigationBar+BottomHairline.m in Sources */,
+				081855F51ECBE2AC008E76F1 /* CaptureViewController.m in Sources */,
 				08D11F6B1EC9421A00D8987A /* FrameworkLYUITests.m in Sources */,
 				08D11F941EC9489800D8987A /* LYTabBar.m in Sources */,
 				08D11FA31EC949AE00D8987A /* AppTheme.m in Sources */,

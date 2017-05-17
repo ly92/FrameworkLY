@@ -8,16 +8,22 @@
 
 #import "AppDelegate.h"
 #import "Reachability.h"//网站状态
-#import "LYTabBarController.h"
-#import "LYNavigationController.h"
+
 #import "LYTabBarItem.h"
+
+#import "CaptureViewController.h"
 
 @interface AppDelegate ()<LYTabBarControllerDelegate>
 
 @end
 
 @implementation AppDelegate
+@def_singleton(AppDelegate);
 
++ (AppDelegate*) sharedAppDelegate
+{
+    return (AppDelegate *)[UIApplication sharedApplication].delegate;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
@@ -63,7 +69,7 @@
 }
 
 - (void)setupViewControllers {
-    UIViewController *firVC = [[UIViewController alloc] init];
+    CaptureViewController *firVC = [[CaptureViewController alloc] init];
     LYNavigationController *firNav = [[LYNavigationController alloc] initWithRootViewController:firVC];
     
     UIViewController *secVC = [[UIViewController alloc] init];
@@ -94,7 +100,7 @@
 
 - (void)customizeTabBarForController:(LYTabBarController *)tabBarController {
     
-    NSArray *tabBarItemTitles = @[@"首页", @"会员",@"项目",@"客服",@"个人中心"];
+    NSArray *tabBarItemTitles = @[@"采集", @"2",@"3",@"4",@"5"];
     
     NSInteger index = 0;
     for (LYTabBarItem *item in [[tabBarController tabBar] items]) {
