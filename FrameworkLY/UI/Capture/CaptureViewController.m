@@ -16,8 +16,11 @@
 @property (nonatomic, strong) AVCaptureConnection *videoConnection;//视频输入与输出连接
 @property (nonatomic, strong) AVCaptureVideoPreviewLayer *previewLayer;//视频预览图层
 @property (weak, nonatomic) IBOutlet UIButton *beginBtn;
-@property (weak, nonatomic) IBOutlet UIButton *closeBtn;
+@property (weak, nonatomic) IBOutlet UIView *toolView;
 @property (weak, nonatomic) IBOutlet UIButton *changeCameraBtn;
+
+@property (nonatomic, strong) UIImageView *focusImgV;
+
 
 @end
 
@@ -25,7 +28,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
+    self.navigationItem.title = @"直播";
+}
+
+- (UIImageView *)focusImgV{
+    if (!_focusImgV){
+        _focusImgV = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"focus"]];
+        _focusImgV.size = CGSizeMake(64, 64);
+        [self.view addSubview:_focusImgV];
+    }
+    return _focusImgV;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -100,7 +113,7 @@
     
     HIDETABBAR;
     HIDENAVGATION;
-    self.closeBtn.hidden = NO;
+    self.toolView.hidden = NO;
     self.changeCameraBtn.hidden = NO;
     self.beginBtn.hidden = YES;
 }
@@ -147,12 +160,13 @@
     self.videoDeviceInput = toggleDeviceInput;
 }
 
+//关闭
 - (IBAction)closeAction {
     [self.previewLayer removeFromSuperlayer];
     
     SHOWTABBAR;
     SHOWNAVGATION;
-    self.closeBtn.hidden = YES;
+    self.toolView.hidden = YES;
     self.changeCameraBtn.hidden = YES;
     self.beginBtn.hidden = NO;
 }
@@ -177,7 +191,14 @@
  *  @param point 光标位置
  */
 -(void)setFocusCursorWithPoint:(CGPoint)point{
-
+    self.focusImgV.center = point;
+    self.focusImgV.transform = CGAffineTransformMakeScale(1.5, 1.5);
+    self.focusImgV.alpha = 1.0;
+    [UIView animateWithDuration:1.0 animations:^{
+        self.focusImgV.transform = CGAffineTransformIdentity;
+    } completion:^(BOOL finished) {
+        self.focusImgV.alpha = 0;
+    }];
 }
 
 /**
@@ -208,4 +229,15 @@
     // 解锁配置
     [captureDevice unlockForConfiguration];
 }
+
+//显示工具
+- (IBAction)showToolAction {
+    
+}
+
+//聊天
+- (IBAction)chatAction{
+    
+}
+
 @end

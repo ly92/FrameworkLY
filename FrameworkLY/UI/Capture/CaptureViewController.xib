@@ -13,7 +13,7 @@
             <connections>
                 <outlet property="beginBtn" destination="JaV-is-TPg" id="ksX-1o-tST"/>
                 <outlet property="changeCameraBtn" destination="III-d5-D4f" id="wpS-3j-1yx"/>
-                <outlet property="closeBtn" destination="gy6-zv-PEm" id="MIe-xP-2EH"/>
+                <outlet property="toolView" destination="3ez-u7-Jlc" id="yeV-jg-Za8"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,49 +28,93 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="5d3-Zy-DG5"/>
                     </constraints>
-                    <state key="normal" title="开始采集图像"/>
+                    <state key="normal" title="开始"/>
                     <connections>
                         <action selector="beginCapture" destination="-1" eventType="touchUpInside" id="stt-q3-q6S"/>
                     </connections>
                 </button>
-                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="III-d5-D4f">
-                    <rect key="frame" x="313" y="20" width="46" height="30"/>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="III-d5-D4f">
+                    <rect key="frame" x="329" y="20" width="30" height="30"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="46" id="QMW-qP-N3O"/>
+                        <constraint firstAttribute="width" constant="30" id="QMW-qP-N3O"/>
                         <constraint firstAttribute="height" constant="30" id="lZa-yA-Fex"/>
                     </constraints>
-                    <state key="normal" title="切换">
+                    <state key="normal" image="change">
                         <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="changeCamera" destination="-1" eventType="touchUpInside" id="V2m-NV-zhg"/>
                     </connections>
                 </button>
-                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gy6-zv-PEm">
-                    <rect key="frame" x="329" y="637" width="46" height="30"/>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ez-u7-Jlc">
+                    <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gy6-zv-PEm">
+                            <rect key="frame" x="329" y="5" width="46" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="Cvm-Xi-T71"/>
+                                <constraint firstAttribute="height" constant="30" id="DSb-LJ-IWQ"/>
+                            </constraints>
+                            <state key="normal" image="close">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="closeAction" destination="-1" eventType="touchUpInside" id="SCC-6r-vwb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ms2-SU-PpB">
+                            <rect key="frame" x="304" y="7.5" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="25" id="EWY-bI-eVV"/>
+                                <constraint firstAttribute="height" constant="25" id="Tqs-sU-t9J"/>
+                            </constraints>
+                            <state key="normal" image="setting"/>
+                            <connections>
+                                <action selector="showToolAction" destination="-1" eventType="touchUpInside" id="eij-2b-c75"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcI-Dm-rKd">
+                            <rect key="frame" x="10" y="4.5" width="50" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="bSV-xm-CZ9"/>
+                                <constraint firstAttribute="height" constant="30" id="lL9-CU-XZZ"/>
+                            </constraints>
+                            <state key="normal" image="chat"/>
+                            <connections>
+                                <action selector="chatAction" destination="-1" eventType="touchUpInside" id="1YB-n7-wsw"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="46" id="Cvm-Xi-T71"/>
-                        <constraint firstAttribute="height" constant="30" id="DSb-LJ-IWQ"/>
+                        <constraint firstItem="gy6-zv-PEm" firstAttribute="leading" secondItem="Ms2-SU-PpB" secondAttribute="trailing" id="26x-rS-EjC"/>
+                        <constraint firstItem="gy6-zv-PEm" firstAttribute="centerY" secondItem="3ez-u7-Jlc" secondAttribute="centerY" id="47n-13-93b"/>
+                        <constraint firstAttribute="trailing" secondItem="gy6-zv-PEm" secondAttribute="trailing" id="EFA-RF-MfW"/>
+                        <constraint firstItem="Ms2-SU-PpB" firstAttribute="centerY" secondItem="IcI-Dm-rKd" secondAttribute="centerY" id="VQB-bb-fUx"/>
+                        <constraint firstAttribute="height" constant="40" id="ddf-cJ-tsk"/>
+                        <constraint firstItem="IcI-Dm-rKd" firstAttribute="leading" secondItem="3ez-u7-Jlc" secondAttribute="leading" constant="10" id="kzs-tB-pZB"/>
+                        <constraint firstItem="gy6-zv-PEm" firstAttribute="centerY" secondItem="Ms2-SU-PpB" secondAttribute="centerY" id="weZ-AQ-HqS"/>
                     </constraints>
-                    <state key="normal" title="关闭">
-                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="closeAction" destination="-1" eventType="touchUpInside" id="SCC-6r-vwb"/>
-                    </connections>
-                </button>
+                </view>
             </subviews>
             <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="JaV-is-TPg" secondAttribute="trailing" id="7Gt-V3-JEM"/>
-                <constraint firstAttribute="trailing" secondItem="gy6-zv-PEm" secondAttribute="trailing" id="Af7-Fz-IuP"/>
+                <constraint firstItem="3ez-u7-Jlc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="EVq-Vq-AIJ"/>
                 <constraint firstItem="JaV-is-TPg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="120" id="Jdn-bf-g16"/>
                 <constraint firstItem="JaV-is-TPg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="PdU-CW-3lZ"/>
-                <constraint firstAttribute="bottom" secondItem="gy6-zv-PEm" secondAttribute="bottom" id="RBu-kA-IZ6"/>
                 <constraint firstItem="III-d5-D4f" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="Seg-sI-oGu"/>
+                <constraint firstAttribute="trailing" secondItem="3ez-u7-Jlc" secondAttribute="trailing" id="UHc-hd-gPF"/>
+                <constraint firstAttribute="bottom" secondItem="3ez-u7-Jlc" secondAttribute="bottom" id="eKD-Rb-eb4"/>
                 <constraint firstAttribute="trailing" secondItem="III-d5-D4f" secondAttribute="trailing" constant="16" id="jZi-sB-FGl"/>
             </constraints>
             <point key="canvasLocation" x="87.5" y="86.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="change" width="48" height="48"/>
+        <image name="chat" width="128" height="56"/>
+        <image name="close" width="16" height="16"/>
+        <image name="setting" width="32" height="32"/>
+    </resources>
 </document>
