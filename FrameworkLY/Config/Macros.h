@@ -76,6 +76,19 @@ green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
 blue:((float)(rgbValue & 0x0000FF))/255.0 \
 alpha:alphaValue]
 
+//隐藏tabbar
+#define HIDETABBAR if (![AppDelegate sharedAppDelegate].tabController.tabBarHidden) {\
+[[AppDelegate sharedAppDelegate].tabController setTabBarHidden:YES animated:YES];\
+}
+//显示tabbar
+#define SHOWTABBAR if ([AppDelegate sharedAppDelegate].tabController.tabBarHidden) {\
+[[AppDelegate sharedAppDelegate].tabController setTabBarHidden:NO animated:YES];\
+}
+
+//隐藏导航栏
+#define HIDENAVGATION [self.navigationController setNavigationBarHidden:YES];
+//隐藏导航栏
+#define SHOWNAVGATION [self.navigationController setNavigationBarHidden:NO];
 
 //下方tabbar背景颜色
 #define TAB_BG_COLOR UIColorFromRGB(0xffffff)
