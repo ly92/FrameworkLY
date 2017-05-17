@@ -69,11 +69,11 @@
 /**
  * The tab bar item that represents the view controller when added to a tab bar controller.
  */
-@property(nonatomic, setter = LY_setTabBarItem:) LYTabBarItem *LY_tabBarItem;
+@property(nonatomic, setter = ly_setTabBarItem:) LYTabBarItem *ly_tabBarItem;
 
 /**
  * The nearest ancestor in the view controller hierarchy that is a tab bar controller. (read-only)
  */
-@property(nonatomic, readonly) LYTabBarController *LY_tabBarController;
+@property(nonatomic, readonly) LYTabBarController *ly_tabBarController;
 
 @end

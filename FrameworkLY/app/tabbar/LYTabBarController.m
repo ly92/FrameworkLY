@@ -12,7 +12,7 @@
 
 @interface UIViewController (LYTabBarControllerItemInternal)
 
-- (void)LY_setTabBarController:(LYTabBarController *)tabBarController;
+- (void)ly_setTabBarController:(LYTabBarController *)tabBarController;
 
 @end
 
@@ -125,13 +125,13 @@
             LYTabBarItem *tabBarItem = [[LYTabBarItem alloc] init];
             [tabBarItem setTitle:viewController.title];
             [tabBarItems addObject:tabBarItem];
-            [viewController LY_setTabBarController:self];
+            [viewController ly_setTabBarController:self];
         }
         
         [[self tabBar] setItems:tabBarItems];
     } else {
         for (UIViewController *viewController in _viewControllers) {
-            [viewController LY_setTabBarController:nil];
+            [viewController ly_setTabBarController:nil];
         }
         
         _viewControllers = nil;
@@ -257,32 +257,32 @@
 
 @implementation UIViewController (LYTabBarControllerItemInternal)
 
-- (void)LY_setTabBarController:(LYTabBarController *)tabBarController {
-    objc_setAssociatedObject(self, @selector(LY_tabBarController), tabBarController, OBJC_ASSOCIATION_ASSIGN);
+- (void)ly_setTabBarController:(LYTabBarController *)tabBarController {
+    objc_setAssociatedObject(self, @selector(ly_tabBarController), tabBarController, OBJC_ASSOCIATION_ASSIGN);
 }
 
 @end
 
 @implementation UIViewController (LYTabBarControllerItem)
 
-- (LYTabBarController *)LY_tabBarController {
-    LYTabBarController *tabBarController = objc_getAssociatedObject(self, @selector(LY_tabBarController));
+- (LYTabBarController *)ly_tabBarController {
+    LYTabBarController *tabBarController = objc_getAssociatedObject(self, @selector(ly_tabBarController));
     
     if (!tabBarController && self.parentViewController) {
-        tabBarController = [self.parentViewController LY_tabBarController];
+        tabBarController = [self.parentViewController ly_tabBarController];
     }
     
     return tabBarController;
 }
 
-- (LYTabBarItem *)LY_tabBarItem {
-    LYTabBarController *tabBarController = [self LY_tabBarController];
+- (LYTabBarItem *)ly_tabBarItem {
+    LYTabBarController *tabBarController = [self ly_tabBarController];
     NSInteger index = [tabBarController indexForViewController:self];
     return [[[tabBarController tabBar] items] objectAtIndex:index];
 }
 
-- (void)LY_setTabBarItem:(LYTabBarItem *)tabBarItem {
-    LYTabBarController *tabBarController = [self LY_tabBarController];
+- (void)ly_setTabBarItem:(LYTabBarItem *)tabBarItem {
+    LYTabBarController *tabBarController = [self ly_tabBarController];
     
     if (!tabBarController) {
         return;
